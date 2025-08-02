@@ -88,7 +88,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen text-white font-sans">
+    <div className="min-h-screen text-white font-sans overflow-x-hidden">
 
       {/* ✅ Hero Section */}
       <div className="bg-cover bg-center" style={{ backgroundImage: `url(${bg})` }}>

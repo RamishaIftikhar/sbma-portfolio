@@ -22,7 +22,7 @@ const Header = () => {
         <Link to="/" className="hover:text-green-400">HOME</Link>
         <Link to="/about" className="hover:text-green-400">ABOUT US</Link>
         <Link to="/services" className="hover:text-green-400">SERVICES</Link>
-        <Link to="/page" className="hover:text-green-400">PAGE</Link>
+        {/* <Link to="/page" className="hover:text-green-400">PAGE</Link> */}
         <Link to="/contact" className="hover:text-green-400">CONTACT</Link>
       </nav>
 
