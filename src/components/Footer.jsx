@@ -4,7 +4,9 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/
 
 export default function Footer() {
   return (
-    <footer className="text-center py-16 border-t border-gray-800 text-white">
+    <footer
+  className="text-center py-16 border-t border-gray-800 text-white bg-footer-pattern bg-cover bg-center"
+>
       <p className="text-green-400 text-sm mb-2">
         <span className="inline-block w-2 h-2 bg-green-500 rounded-full mr-2"></span>
         Let’s Work Together
